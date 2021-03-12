@@ -7,22 +7,23 @@ to install this application:
 3. npm install
 4. sudo npm link
 
-to run this application: 
-1. enter "parkbot" into your terminal (once its linked, the command is accessible globally)
+**to run this application**
+enter "parkbot" into your terminal (once its linked, the command is accessible globally)
 
 supported functions: 
-locate: `${name of file you want to parse (must be in parkbot folder} ${locate} ${state}`
+1. locate: `${name of file you want to parse (must be in parkbot folder} ${locate} ${state}`
   ex: 
 ```
 data.json locate AZ
 ```
-find_price_hourly_lte: `${name of file you want to parse (must be in parkbot folder} ${find_price_hourly_lte} ${price in cents}`
+
+2. find_price_hourly_lte: `${name of file you want to parse (must be in parkbot folder} ${find_price_hourly_lte} ${price in cents}`
 ex: 
 ```
 data.json find_price_hourly_lte 200
 ```
 
-find_price_hourly_gt: `${name of file you want to parse (must be in parkbot folder} ${find_price_hourly_gt} ${price in cents}`
+3. find_price_hourly_gt: `${name of file you want to parse (must be in parkbot folder} ${find_price_hourly_gt} ${price in cents}`
 ex: 
 ```
 data.json find_price_hourly_gt 200
