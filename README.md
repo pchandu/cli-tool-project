@@ -1,5 +1,4 @@
 # cli-tool-project
-got cracked during an interview that asked me to build a cli tool in an hour so I learned how to do it afterwards. 
 
 to install this application: 
 1. clone project
